@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level 3 - Loud Voice</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', cursive, sans-serif;
+            background-color: #F4D03F;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: #FFFFFF;
+            border-radius: 20px;
+            padding: 50px;
+            max-width: 800px;
+            width: 100%;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .level-number {
+            background-color: #F4D03F;
+            width: 120px;
+            height: 120px;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 4em;
+            font-weight: bold;
+            border-radius: 15px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 4em;
+            margin-bottom: 40px;
+            color: #333;
+        }
+
+        .level-image {
+            max-width: 400px;
+            width: 100%;
+            height: auto;
+            margin: 30px auto;
+            display: block;
+        }
+
+        .home-link {
+            display: inline-block;
+            margin-top: 40px;
+            padding: 20px 40px;
+            background-color: #F4D03F;
+            color: #333;
+            text-decoration: none;
+            border-radius: 12px;
+            font-size: 1.5em;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .home-link:hover {
+            background-color: #E8C030;
+            transform: scale(1.05);
+        }
+
+        @media (max-width: 768px) {
+            .level-number {
+                width: 90px;
+                height: 90px;
+                font-size: 3em;
+            }
+
+            h1 {
+                font-size: 2.5em;
+            }
+
+            .level-image {
+                max-width: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="level-number">3</div>
+        <h1>Loud Voice</h1>
+        <img src="loud voice.png" alt="Loud Voice" class="level-image">
+        <a href="index.html" class="home-link">← Back to Volume Chart</a>
+    </div>
+</body>
+</html>
